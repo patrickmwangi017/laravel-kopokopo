@@ -70,7 +70,7 @@ beforeEach(function (){
 });
 
 test('incoming payment request succeeds',function (){
-    $kopokopo=new \Michaelgatuma\Kopokopo\Kopokopo($this->config,$this->incomingPaymentRequestClient);
+    $kopokopo=new \Patrickmwangi017\Kopokopo\Kopokopo($this->config,$this->incomingPaymentRequestClient);
     expect(
         $kopokopo->stkPush(2455,'+254712345678','John','Doe','example@example.com','M-PESA')
     )->toMatchArray(['status' => 'success']);

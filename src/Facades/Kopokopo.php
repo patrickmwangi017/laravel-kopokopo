@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo\Facades;
+namespace Patrickmwangi017\Kopokopo\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo;
+namespace Patrickmwangi017\Kopokopo;
 
 use Illuminate\Support\ServiceProvider;
-use Michaelgatuma\Kopokopo\Console\InstallKopokopo;
-use Michaelgatuma\Kopokopo\Console\SubscribeWebhook;
+use Patrickmwangi017\Kopokopo\Console\InstallKopokopo;
+use Patrickmwangi017\Kopokopo\Console\SubscribeWebhook;
 
 class KopokopoServiceProvider extends ServiceProvider
 {
@@ -15,8 +15,8 @@ class KopokopoServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'michaelgatuma');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'michaelgatuma');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'patrickmwangi017');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'patrickmwangi017');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -65,17 +65,17 @@ class KopokopoServiceProvider extends ServiceProvider
 
         // Publishing the views.
         /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/michaelgatuma'),
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/patrickmwangi017'),
         ], 'kopokopo.views');*/
 
         // Publishing assets.
         /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/michaelgatuma'),
+            __DIR__.'/../resources/assets' => public_path('vendor/patrickmwangi017'),
         ], 'kopokopo.views');*/
 
         // Publishing the translation files.
         /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/michaelgatuma'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/patrickmwangi017'),
         ], 'kopokopo.views');*/
 
         // Registering package commands.

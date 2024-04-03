@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo\Console;
+namespace Patrickmwangi017\Kopokopo\Console;
 
 use Illuminate\Console\Command;
 use Kopokopo;

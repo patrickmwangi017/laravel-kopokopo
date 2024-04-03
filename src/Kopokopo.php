@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo;
+namespace Patrickmwangi017\Kopokopo;
 
 use Exception;
 use GuzzleHttp\Client;
@@ -10,10 +10,10 @@ use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
 use JetBrains\PhpStorm\NoReturn;
-use Michaelgatuma\Kopokopo\Data\DataHandler;
-use Michaelgatuma\Kopokopo\Data\FailedResponseData;
-use Michaelgatuma\Kopokopo\Data\TokenData;
-use Michaelgatuma\Kopokopo\Traits\HasFormattedPayload;
+use Patrickmwangi017\Kopokopo\Data\DataHandler;
+use Patrickmwangi017\Kopokopo\Data\FailedResponseData;
+use Patrickmwangi017\Kopokopo\Data\TokenData;
+use Patrickmwangi017\Kopokopo\Traits\HasFormattedPayload;
 
 class Kopokopo
 {

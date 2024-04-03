@@ -1,12 +1,12 @@
 {
-    "name": "michaelgatuma/laravel-kopokopo",
+    "name": "patrickmwangi017/laravel-kopokopo",
     "description": "A simple package for developers to consume Kopokopo Mpesa API in Laravel 8",
-    "homepage": "https://github/michaelgatuma/laravel-kopokopo",
+    "homepage": "https://github/patrickmwangi017/laravel-kopokopo",
     "keywords": [
         "kopokopo",
         "mpesa",
         "laravel",
-        "michaelgatuma"
+        "patrickmwangi017"
     ],
     "type": "laravel",
     "license": "MIT",
@@ -14,14 +14,14 @@
     "prefer-stable": true,
     "authors": [
         {
-            "name": "Michael Gatuma",
-            "email": "mgates4410@gmail.com"
+            "name": "Patrick Mwangi",
+            "email": "mwangipatrick017@gmail.com"
         }
     ],
     "require": {
-        "laravel/framework": "^8.0|^9.0",
+        "laravel/framework": "^9.0|^10.0",
         "guzzlehttp/guzzle": "^7.1",
-        "php": "^7.0|^8.0"
+        "php": "^8.0|^8.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3.3",
@@ -29,21 +29,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Michaelgatuma\\Kopokopo\\": "src/"
+            "Patrickmwangi017\\Kopokopo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Michaelgatuma\\Kopokopo\\Tests\\": "tests"
+            "Patrickmwangi017\\Kopokopo\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Michaelgatuma\\Kopokopo\\KopokopoServiceProvider"
+                "Patrickmwangi017\\Kopokopo\\KopokopoServiceProvider"
             ],
             "aliases": {
-                "Kopokopo": "Michaelgatuma\\Kopokopo\\Facades\\Kopokopo"
+                "Kopokopo": "Patrickmwangi017\\Kopokopo\\Facades\\Kopokopo"
             }
         }
     },

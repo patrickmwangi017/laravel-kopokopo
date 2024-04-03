@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo\Data;
+namespace Patrickmwangi017\Kopokopo\Data;
 
 class ResultDataHandler
 {

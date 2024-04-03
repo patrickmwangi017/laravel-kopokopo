@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo\Traits;
+namespace Patrickmwangi017\Kopokopo\Traits;
 
 trait HasFormattedPayload
 {

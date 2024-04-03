@@ -7,7 +7,7 @@ A simple package for laravel developers to consume Kopokopo API for laravel 8.
 You can easily install this package using composer and an installation command
 
 ```sh
-composer require michaelgatuma/laravel-kopokopo
+composer require patrickmwangi017/laravel-kopokopo
 ```
 
 ## Configuration
@@ -320,22 +320,22 @@ the [MIT license](https://opensource.org/licenses/MIT)
 
 laravel, mpesa, kopokopo, k2-connect,k2-connect-php, laravel-mpesa, php, stk-push
 
-[ico-version]: https://img.shields.io/packagist/v/michaelgatuma/kopokopo.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/patrickmwangi017/kopokopo.svg?style=flat-square
 
-[ico-downloads]: https://img.shields.io/packagist/dt/michaelgatuma/kopokopo.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/patrickmwangi017/kopokopo.svg?style=flat-square
 
-[ico-travis]: https://img.shields.io/travis/michaelgatuma/kopokopo/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/patrickmwangi017/kopokopo/master.svg?style=flat-square
 
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/michaelgatuma/kopokopo
+[link-packagist]: https://packagist.org/packages/patrickmwangi017/kopokopo
 
-[link-downloads]: https://packagist.org/packages/michaelgatuma/kopokopo
+[link-downloads]: https://packagist.org/packages/patrickmwangi017/kopokopo
 
-[link-travis]: https://travis-ci.org/michaelgatuma/kopokopo
+[link-travis]: https://travis-ci.org/patrickmwangi017/kopokopo
 
 [link-styleci]: https://styleci.io/repos/12345678
 
-[link-author]: https://github.com/michaelgatuma
+[link-author]: https://github.com/patrickmwangi017
 
 [link-contributors]: ../../contributors

@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo\Helpers;
+namespace Patrickmwangi017\Kopokopo\Helpers;
 
 use hash_hmac;
 

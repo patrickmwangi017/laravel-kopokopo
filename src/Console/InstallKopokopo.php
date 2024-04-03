@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelgatuma\Kopokopo\Console;
+namespace Patrickmwangi017\Kopokopo\Console;
 
 use Illuminate\Console\Command;
 
@@ -16,7 +16,7 @@ class InstallKopokopo extends Command
         $this->info('Publishing Configuration...');
 
         $this->call('vendor:publish', [
-            '--provider' => "Michaelgatuma\Kopokopo\KopokopoServiceProvider",
+            '--provider' => "Patrickmwangi017\Kopokopo\KopokopoServiceProvider",
             '--tag' => "kopokopo-config"
         ]);
 
