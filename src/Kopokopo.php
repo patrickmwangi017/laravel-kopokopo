@@ -364,9 +364,9 @@ class Kopokopo
      * @return array
      */
     public
-    function stkPush(int $amount, string $phone, string $first_name = null, string $last_name = null, string $email = null, string $payment_channel = 'M-PESA STK Push', array $metadata = null): array
+    function stkPush(int $amount, string $phone, string $first_name = null, string $last_name = null, string $email = null, string $payment_channel = 'M-PESA STK Push', array $metadata = null, string $stk_till_number = null): array
     {
-
+        $this->stk_till_number = $stk_till_number;
         $body = [
             'payment_channel' => $payment_channel,
             'till_number' => $this->stk_till_number,
