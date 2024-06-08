@@ -197,7 +197,8 @@ $res= Kopokopo::authenticate('my_access_token')->stkPush(
     metadata: [
         'user_id'=>1,
         'action'=>'deposit'
-    ]//optional
+    ],//optional
+    stk_till_number: 'STK_TILL_NUMBER'
 );
 
 if($res['status'] == 'success')
